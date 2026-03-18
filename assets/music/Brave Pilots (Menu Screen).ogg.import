@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cuehstyhls757"
+path="res://.godot/imported/Brave Pilots (Menu Screen).ogg-b20753b7607e91feb35876d0e088acc6.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/Brave Pilots (Menu Screen).ogg"
+dest_files=["res://.godot/imported/Brave Pilots (Menu Screen).ogg-b20753b7607e91feb35876d0e088acc6.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

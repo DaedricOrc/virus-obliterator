@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cagjyev6m4yp3"
+path="res://.godot/imported/Battle in the Stars.ogg-bce0471c24834f2f82931825aa2737c2.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/Battle in the Stars.ogg"
+dest_files=["res://.godot/imported/Battle in the Stars.ogg-bce0471c24834f2f82931825aa2737c2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

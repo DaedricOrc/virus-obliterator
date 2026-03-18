@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d3y2en00oq05w"
+path="res://.godot/imported/Without Fear.ogg-38a250c2b176923dbd634e58a8519b26.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/Without Fear.ogg"
+dest_files=["res://.godot/imported/Without Fear.ogg-38a250c2b176923dbd634e58a8519b26.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
