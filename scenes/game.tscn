@@ -10,6 +10,6 @@ size = Vector2(78, 99)
 [node name="AVG Gunner" parent="." unique_id=979577410 instance=ExtResource("1_uwrxv")]
 position = Vector2(530, 293)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="AVG Gunner" unique_id=2018340962]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="AVG Gunner" unique_id=2018340962]
 position = Vector2(-1, 0.5)
 shape = SubResource("RectangleShape2D_yqjtg")
