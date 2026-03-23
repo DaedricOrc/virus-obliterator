@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773949793
+::res://::1774305779
 icon.svg::CompressedTexture2D::1732428331434475148::1773704223::1773704233::1::::<><><>0<>0<>ab84ab6eeb95a6386701778e83040efb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1773797867
 ::res://assets/images/::1773797887
@@ -319,6 +319,8 @@ Without Fear.ogg::AudioStreamOggVorbis::9175741963600874038::1773797888::1773797
 ::res://assets/sound effects/::1773797888
 laser-45816.wav::AudioStreamWAV::8858705011967899678::1773797888::1773797888::1::::<><><>0<>0<>b3090aa98d8ab11f9efda8f41778701e<>res://.godot/imported/laser-45816.wav-1c3776cbc3812936d24505b3e36cc2d3.sample::
 loud-explosion-sound-425458.mp3::AudioStreamMP3::2732552032680002505::1773797888::1773797879::1::::<><><>0<>0<>91c49f3725f5b2d81e6063ea8885221d<>res://.godot/imported/loud-explosion-sound-425458.mp3-045439f53152a326a25262b1e6cf0ddb.mp3str::
-::res://scenes/::1773799674
-game.tscn::PackedScene::5646186519595704008::1773799673::0::1::::<><><>0<>0<><>::uid://c2mxo4rcv1fqo::::res://scenes/player.tscn
-player.tscn::PackedScene::6694135720168882402::1773799674::0::1::::<><><>0<>0<><>::uid://b5e5kpkudakli::::res://assets/images/playerShip1_red.png
+::res://scenes/::1773953060
+game.tscn::PackedScene::5646186519595704008::1773953060::0::1::::<><><>0<>0<><>::uid://c2mxo4rcv1fqo::::res://scenes/player.tscn
+player.tscn::PackedScene::6694135720168882402::1773952670::0::1::::<><><>0<>0<><>::uid://b5e5kpkudakli::::res://assets/images/playerShip1_red.png<>uid://ox0xpja7nqxl::::res://scripts/player.gd
+::res://scripts/::1773952670
+player.gd::GDScript::1031684299151587329::1773952670::0::1::::<>Area2D<><>0<>0<><>::
