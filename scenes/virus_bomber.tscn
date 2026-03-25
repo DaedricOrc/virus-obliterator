@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://htsvbkrj0o32"]
+
+[ext_resource type="Texture2D" uid="uid://bkr8yy1eb16gn" path="res://assets/images/Enemies/enemyBlack4.png" id="1_qrbg3"]
+[ext_resource type="Script" uid="uid://dvb22aueokjim" path="res://scripts/virus_bomber.gd" id="1_uswti"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uswti"]
+size = Vector2(84, 82)
+
+[node name="Virus Bomber" type="Area2D" unique_id=1867311779]
+script = ExtResource("1_uswti")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=309717782]
+rotation = 1.5707964
+texture = ExtResource("1_qrbg3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=106726701]
+shape = SubResource("RectangleShape2D_uswti")

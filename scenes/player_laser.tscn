@@ -9,6 +9,7 @@ size = Vector2(44, 44)
 [node name="player laser" type="Area2D" unique_id=584459007]
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_p3bga")
+speed = 12
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1358727603]
 rotation = 1.5707964

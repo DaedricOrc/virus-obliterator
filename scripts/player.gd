@@ -21,7 +21,7 @@ func _process(delta: float) -> void:
 	position.x = clampi(position.x, 19, 1133)
 	position.y = clampi(position.y, 25, 623)
 
-	if Input.is_action_pressed("player_fire"):
+	if Input.is_action_just_pressed("player_fire"):
 		var player_laser = player_laser_scene.instantiate()
 		player_laser.position = position
 		get_parent().add_child(player_laser)
