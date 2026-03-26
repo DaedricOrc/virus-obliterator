@@ -1,5 +1,3 @@
-res://scenes/virus_bomber.tscn
 res://scripts/virus_bomber.gd
-res://scenes/game.tscn
+res://scenes/virus_bomber.tscn
 res://scenes/virus_bombers_bomb.tscn
-res://scripts/virus_bombers_bomb.gd
