@@ -7,3 +7,4 @@ res://scripts/player.gd
 res://scripts/player_laser.gd
 res://scripts/virus_bombers_bomb.gd
 res://scenes/game.tscn
+res://scripts/game.gd

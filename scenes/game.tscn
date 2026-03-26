@@ -1,13 +1,16 @@
 [gd_scene format=3 uid="uid://cmpb4qk56b32k"]
 
+[ext_resource type="Script" uid="uid://cip4nngfbill1" path="res://scripts/game.gd" id="1_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://c2mxo4rcv1fqo" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="PackedScene" uid="uid://htsvbkrj0o32" path="res://scenes/virus_bomber.tscn" id="2_yqjtg"]
 
 [node name="game" type="Node2D" unique_id=1925192407]
+script = ExtResource("1_lnu2h")
 
 [node name="AVG Gunner" parent="." unique_id=979577410 instance=ExtResource("1_uwrxv")]
-position = Vector2(260, 300)
+position = Vector2(259, 291)
 
-[node name="Virus Bomber" parent="." unique_id=1867311779 instance=ExtResource("2_yqjtg")]
-position = Vector2(1080, 315)
-speed = 2
+[node name="Virus Reinforcements" type="Timer" parent="." unique_id=2139058293]
+wait_time = 2.0
+autostart = true
+
+[connection signal="timeout" from="Virus Reinforcements" to="." method="_on_virus_reinforcements_timeout"]
