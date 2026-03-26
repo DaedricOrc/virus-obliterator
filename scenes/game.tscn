@@ -13,4 +13,22 @@ position = Vector2(259, 291)
 wait_time = 2.0
 autostart = true
 
+[node name="ui" type="Control" parent="." unique_id=772762921]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1153.0
+offset_bottom = 649.0
+
+[node name="Score" type="Label" parent="ui" unique_id=134954195]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 40
+text = "Score: 0"
+
 [connection signal="timeout" from="Virus Reinforcements" to="." method="_on_virus_reinforcements_timeout"]
