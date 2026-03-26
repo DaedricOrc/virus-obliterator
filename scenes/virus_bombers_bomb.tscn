@@ -8,6 +8,7 @@ size = Vector2(36, 36)
 
 [node name="Virus Bombers bomb" type="Area2D" unique_id=1897600822]
 scale = Vector2(0.5, 0.5)
+collision_layer = 8
 script = ExtResource("1_g4i86")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1777482561]
@@ -16,3 +17,5 @@ texture = ExtResource("1_ck8we")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=595730962]
 shape = SubResource("RectangleShape2D_g4i86")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

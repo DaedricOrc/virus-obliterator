@@ -8,6 +8,8 @@ size = Vector2(44, 44)
 
 [node name="player laser" type="Area2D" unique_id=584459007]
 scale = Vector2(0.5, 0.5)
+collision_layer = 2
+collision_mask = 4
 script = ExtResource("1_p3bga")
 speed = 12
 
@@ -17,3 +19,5 @@ texture = ExtResource("1_8lrg4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=538209772]
 shape = SubResource("RectangleShape2D_p3bga")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

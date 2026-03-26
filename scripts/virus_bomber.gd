@@ -18,3 +18,7 @@ func _on_timer_timeout() -> void:
 	var enemy_laser = enemy_laser_scene.instantiate()
 	enemy_laser.position = position
 	get_parent().add_child(enemy_laser)
+
+
+func _on_area_entered(area: Area2D) -> void:
+	queue_free()
