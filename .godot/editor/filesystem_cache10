@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1774554517
+::res://::1774910624
 icon.svg::CompressedTexture2D::1732428331434475148::1773704223::1773704233::1::::<><><>0<>0<>ab84ab6eeb95a6386701778e83040efb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1773797867
 ::res://assets/images/::1773797887
@@ -319,14 +319,15 @@ Without Fear.ogg::AudioStreamOggVorbis::9175741963600874038::1773797888::1773797
 ::res://assets/sound effects/::1773797888
 laser-45816.wav::AudioStreamWAV::8858705011967899678::1773797888::1773797888::1::::<><><>0<>0<>b3090aa98d8ab11f9efda8f41778701e<>res://.godot/imported/laser-45816.wav-1c3776cbc3812936d24505b3e36cc2d3.sample::
 loud-explosion-sound-425458.mp3::AudioStreamMP3::2732552032680002505::1773797888::1773797879::1::::<><><>0<>0<>91c49f3725f5b2d81e6063ea8885221d<>res://.godot/imported/loud-explosion-sound-425458.mp3-045439f53152a326a25262b1e6cf0ddb.mp3str::
-::res://scenes/::1774404471
-game.tscn::PackedScene::5646186519595704008::1774403727::0::1::::<><><>0<>0<><>::uid://c2mxo4rcv1fqo::::res://scenes/player.tscn<>uid://htsvbkrj0o32::::res://scenes/virus_bomber.tscn
-player.tscn::PackedScene::6694135720168882402::1774307933::0::1::::<><><>0<>0<><>::uid://b5e5kpkudakli::::res://assets/images/playerShip1_red.png<>uid://ox0xpja7nqxl::::res://scripts/player.gd
-player_laser.tscn::PackedScene::1956366718286747108::1774309105::0::1::::<><><>0<>0<><>::uid://cndwonam5rok4::::res://assets/images/Lasers/laserRed08.png<>uid://csecklw1lidpe::::res://scripts/player_laser.gd
-virus_bomber.tscn::PackedScene::531675559091984899::1774403577::0::1::::<><><>0<>0<><>::uid://bkr8yy1eb16gn::::res://assets/images/Enemies/enemyBlack4.png<>uid://dvb22aueokjim::::res://scripts/virus_bomber.gd
-virus_bombers_bomb.tscn::PackedScene::4874533662689442297::1774404471::0::1::::<><><>0<>0<><>::uid://dmuw6vw8wgvm8::::res://assets/images/Lasers/laserGreen16.png<>uid://64awk5fkjhs0::::res://scripts/virus_bombers_bomb.gd
-::res://scripts/::1774404472
-player.gd::GDScript::1031684299151587329::1774308994::0::1::::<>Area2D<><>0<>0<><>::
-player_laser.gd::GDScript::6044637968750493886::1774308398::0::1::::<>Area2D<><>0<>0<><>::
-virus_bomber.gd::GDScript::8636979751569112176::1774403727::0::1::::<>Area2D<><>0<>0<><>::
-virus_bombers_bomb.gd::GDScript::2235760966931181985::1774404472::0::1::::<>Area2D<><>0<>0<><>::
+::res://scenes/::1774557842
+game.tscn::PackedScene::5646186519595704008::1774557842::0::1::::<><><>0<>0<><>::uid://cip4nngfbill1::::res://scripts/game.gd<>uid://c2mxo4rcv1fqo::::res://scenes/player.tscn
+player.tscn::PackedScene::6694135720168882402::1774555947::0::1::::<><><>0<>0<><>::uid://b5e5kpkudakli::::res://assets/images/playerShip1_red.png<>uid://ox0xpja7nqxl::::res://scripts/player.gd
+player_laser.tscn::PackedScene::1956366718286747108::1774555948::0::1::::<><><>0<>0<><>::uid://cndwonam5rok4::::res://assets/images/Lasers/laserRed08.png<>uid://csecklw1lidpe::::res://scripts/player_laser.gd
+virus_bomber.tscn::PackedScene::531675559091984899::1774557114::0::1::::<><><>0<>0<><>::uid://bkr8yy1eb16gn::::res://assets/images/Enemies/enemyBlack4.png<>uid://dvb22aueokjim::::res://scripts/virus_bomber.gd
+virus_bombers_bomb.tscn::PackedScene::4874533662689442297::1774555948::0::1::::<><><>0<>0<><>::uid://dmuw6vw8wgvm8::::res://assets/images/Lasers/laserGreen16.png<>uid://64awk5fkjhs0::::res://scripts/virus_bombers_bomb.gd
+::res://scripts/::1774556912
+game.gd::GDScript::5367102483213568300::1774556912::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript::1031684299151587329::1774555947::0::1::::<>Area2D<><>0<>0<><>::
+player_laser.gd::GDScript::6044637968750493886::1774555948::0::1::::<>Area2D<><>0<>0<><>::
+virus_bomber.gd::GDScript::8636979751569112176::1774555948::0::1::::<>Area2D<><>0<>0<><>::
+virus_bombers_bomb.gd::GDScript::2235760966931181985::1774555948::0::1::::<>Area2D<><>0<>0<><>::
