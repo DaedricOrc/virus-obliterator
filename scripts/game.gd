@@ -20,4 +20,4 @@ func _on_virus_reinforcements_timeout() -> void:
 	add_child(enemy)
 	enemy.enemy_killed.connect(on_enemy_killed)
 func on_enemy_killed():
-	score += 1000
+	score += 500

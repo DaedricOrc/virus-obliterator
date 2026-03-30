@@ -3,6 +3,7 @@ extends Area2D
 @export var speed: int = 4
 
 @onready var enemy_laser_scene = preload("res://scenes/virus_bombers_bomb.tscn")
+@onready var explosion_scene = preload("res://scenes/explosion.tscn")
 
 signal enemy_killed
 
@@ -25,3 +26,6 @@ func _on_timer_timeout() -> void:
 func _on_area_entered(area: Area2D) -> void:
 	queue_free()
 	enemy_killed.emit()
+	var explosion = explosion_scene.instantiate()
+	explosion.position = position
+	get_parent().add_child(explosion)

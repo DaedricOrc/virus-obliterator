@@ -1,3 +1,6 @@
 res://scenes/game.tscn
 res://scripts/game.gd
 res://scripts/virus_bomber.gd
+res://scenes/explosion.tscn
+res://scripts/explosion.gd
+res://scripts/player.gd

@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://b1x5kh8upf2c5"]
+
+[ext_resource type="Texture2D" uid="uid://dkj8b7a86q67v" path="res://assets/images/Effects/star2.png" id="1_17npe"]
+[ext_resource type="Script" uid="uid://baudvu7wy62b7" path="res://scripts/explosion.gd" id="2_nfeox"]
+
+[sub_resource type="Gradient" id="Gradient_17npe"]
+offsets = PackedFloat32Array(0, 0.6518106, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_nfeox"]
+gradient = SubResource("Gradient_17npe")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_nfeox"]
+particle_flag_disable_z = true
+angle_min = -720.0
+angle_max = 720.0
+spread = 180.0
+initial_velocity_min = 65.57
+initial_velocity_max = 261.34
+gravity = Vector3(0, 0, 0)
+color_ramp = SubResource("GradientTexture1D_nfeox")
+
+[node name="Explosion" type="GPUParticles2D" unique_id=1376267414]
+emitting = false
+amount = 1000
+texture = ExtResource("1_17npe")
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_nfeox")
+script = ExtResource("2_nfeox")

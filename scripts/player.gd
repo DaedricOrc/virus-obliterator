@@ -2,6 +2,7 @@ extends Area2D
 
 @export var speed:int = 10
 @onready var player_laser_scene = preload("res://scenes/player_laser.tscn")
+@onready var explosion_scene = preload("res://scenes/explosion.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -29,3 +30,6 @@ func _process(delta: float) -> void:
 
 func _on_area_entered(area: Area2D) -> void:
 	queue_free()
+	var explosion = explosion_scene.instantiate()
+	explosion.position = position
+	get_parent().add_child(explosion)
