@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cndwonam5rok4" path="res://assets/images/Lasers/laserRed08.png" id="1_8lrg4"]
 [ext_resource type="Script" uid="uid://csecklw1lidpe" path="res://scripts/player_laser.gd" id="1_p3bga"]
+[ext_resource type="AudioStream" uid="uid://dyhhtvlggaja1" path="res://assets/sound effects/laser-45816.wav" id="3_s58b8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p3bga"]
 size = Vector2(44, 44)
@@ -19,5 +20,9 @@ texture = ExtResource("1_8lrg4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=538209772]
 shape = SubResource("RectangleShape2D_p3bga")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=205451080]
+stream = ExtResource("3_s58b8")
+autoplay = true
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

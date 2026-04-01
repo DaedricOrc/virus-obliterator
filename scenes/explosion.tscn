@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dkj8b7a86q67v" path="res://assets/images/Effects/star2.png" id="1_17npe"]
 [ext_resource type="Script" uid="uid://baudvu7wy62b7" path="res://scripts/explosion.gd" id="2_nfeox"]
+[ext_resource type="AudioStream" uid="uid://be6wy6b5yn44t" path="res://assets/sound effects/loud-explosion-sound-425458.mp3" id="3_aw4cw"]
 
 [sub_resource type="Gradient" id="Gradient_17npe"]
 offsets = PackedFloat32Array(0, 0.6518106, 1)
@@ -28,3 +29,7 @@ one_shot = true
 explosiveness = 1.0
 process_material = SubResource("ParticleProcessMaterial_nfeox")
 script = ExtResource("2_nfeox")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=652316874]
+stream = ExtResource("3_aw4cw")
+autoplay = true

@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1774910624
+::res://::1775007260
 icon.svg::CompressedTexture2D::1732428331434475148::1773704223::1773704233::1::::<><><>0<>0<>ab84ab6eeb95a6386701778e83040efb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1773797867
 ::res://assets/images/::1773797887
@@ -305,7 +305,7 @@ playerLife3_blue.png::CompressedTexture2D::1094501572878207686::1773797887::1773
 playerLife3_green.png::CompressedTexture2D::2510290282064702752::1773797887::1773797883::1::::<><><>0<>0<>81ea010dade671dccadad6a3126584ab<>res://.godot/imported/playerLife3_green.png-009f726046e9f37fa995b62a4210cc4e.ctex::
 playerLife3_orange.png::CompressedTexture2D::2573773731447531235::1773797887::1773797883::1::::<><><>0<>0<>e0c32513a42e65a1f530a333d4ebc74c<>res://.godot/imported/playerLife3_orange.png-90e483172ced818d0acd31071ced3b2d.ctex::
 playerLife3_red.png::CompressedTexture2D::685334506221864129::1773797887::1773797883::1::::<><><>0<>0<>f7955cf4e44909ff238444cb526badd3<>res://.godot/imported/playerLife3_red.png-309ca6fe8519458e61fa24df4dc9f33f.ctex::
-::res://assets/music/::1773797888
+::res://assets/music/::1775007412
 Alone Against Enemy.ogg::AudioStreamOggVorbis::4328854872864872769::1773797887::1773797879::1::::<><><>0<>0<>3e78bad64538ba7d2ba8dcffaa46f2ff<>res://.godot/imported/Alone Against Enemy.ogg-127c05b2643b6e91a74602e54a08af7d.oggvorbisstr::
 Battle in the Stars.ogg::AudioStreamOggVorbis::4785817189859172034::1773797887::1773797879::1::::<><><>0<>0<>a99e3b4f41a5804f39a94ad83b86c589<>res://.godot/imported/Battle in the Stars.ogg-bce0471c24834f2f82931825aa2737c2.oggvorbisstr::
 Brave Pilots (Menu Screen).ogg::AudioStreamOggVorbis::6185333949755194172::1773797887::1773797879::1::::<><><>0<>0<>9c6076870b294ed78737843067ed9098<>res://.godot/imported/Brave Pilots (Menu Screen).ogg-b20753b7607e91feb35876d0e088acc6.oggvorbisstr::
@@ -316,18 +316,22 @@ SkyFire (Title Screen).ogg::AudioStreamOggVorbis::7691172994967544022::177379788
 Space Heroes.ogg::AudioStreamOggVorbis::5841936398652397201::1773797888::1773797879::1::::<><><>0<>0<>1cd1cfcb22a5920332fffe9a750c1357<>res://.godot/imported/Space Heroes.ogg-7f8871b67d46fe37ae7b1c27da279152.oggvorbisstr::
 Victory Tune.ogg::AudioStreamOggVorbis::8001525986452710311::1773797888::1773797879::1::::<><><>0<>0<>39d181b27b3d5b6ee26a0b606babf8ff<>res://.godot/imported/Victory Tune.ogg-760393e53fe7033a77fa69ec138cf020.oggvorbisstr::
 Without Fear.ogg::AudioStreamOggVorbis::9175741963600874038::1773797888::1773797879::1::::<><><>0<>0<>e98e9fe6ccab78f42da4a173bd889043<>res://.godot/imported/Without Fear.ogg-38a250c2b176923dbd634e58a8519b26.oggvorbisstr::
-::res://assets/sound effects/::1773797888
+ytmp3free.cc_knife-party-power-glove-official-youtubemp3free.org.mp3::AudioStreamMP3::7709468547752856550::1775007381::1775007412::1::::<><><>0<>0<>55a584834f1508a797ca9a3ec9eeeccc<>res://.godot/imported/ytmp3free.cc_knife-party-power-glove-official-youtubemp3free.org.mp3-07ecbcc64e34372dfd176ce33d3ae2b2.mp3str::
+::res://assets/sound effects/::1775008546
 laser-45816.wav::AudioStreamWAV::8858705011967899678::1773797888::1773797888::1::::<><><>0<>0<>b3090aa98d8ab11f9efda8f41778701e<>res://.godot/imported/laser-45816.wav-1c3776cbc3812936d24505b3e36cc2d3.sample::
 loud-explosion-sound-425458.mp3::AudioStreamMP3::2732552032680002505::1773797888::1773797879::1::::<><><>0<>0<>91c49f3725f5b2d81e6063ea8885221d<>res://.godot/imported/loud-explosion-sound-425458.mp3-045439f53152a326a25262b1e6cf0ddb.mp3str::
-::res://scenes/::1774557842
-game.tscn::PackedScene::5646186519595704008::1774557842::0::1::::<><><>0<>0<><>::uid://cip4nngfbill1::::res://scripts/game.gd<>uid://c2mxo4rcv1fqo::::res://scenes/player.tscn
+ytmp3free.cc_fallout-4-assaultron-laser-charging-sound-youtubemp3free.org (1).mp3::AudioStreamMP3::2751638761820902408::1775008490::1775008549::1::::<><><>0<>0<>214b577d6acab26dea59aabc756316fd<>res://.godot/imported/ytmp3free.cc_fallout-4-assaultron-laser-charging-sound-youtubemp3free.org (1).mp3-a5433271443d7f2cd27bce5366de28fb.mp3str::
+::res://scenes/::1775007538
+explosion.tscn::PackedScene::4260651093918338854::1774913293::0::1::::<><><>0<>0<><>::uid://dkj8b7a86q67v::::res://assets/images/Effects/star2.png<>uid://baudvu7wy62b7::::res://scripts/explosion.gd
+game.tscn::PackedScene::5646186519595704008::1775007538::0::1::::<><><>0<>0<><>::uid://cip4nngfbill1::::res://scripts/game.gd<>uid://c2mxo4rcv1fqo::::res://scenes/player.tscn<>uid://dh3r25voc1c4u::::res://assets/music/ytmp3free.cc_knife-party-power-glove-official-youtubemp3free.org.mp3
 player.tscn::PackedScene::6694135720168882402::1774555947::0::1::::<><><>0<>0<><>::uid://b5e5kpkudakli::::res://assets/images/playerShip1_red.png<>uid://ox0xpja7nqxl::::res://scripts/player.gd
 player_laser.tscn::PackedScene::1956366718286747108::1774555948::0::1::::<><><>0<>0<><>::uid://cndwonam5rok4::::res://assets/images/Lasers/laserRed08.png<>uid://csecklw1lidpe::::res://scripts/player_laser.gd
 virus_bomber.tscn::PackedScene::531675559091984899::1774557114::0::1::::<><><>0<>0<><>::uid://bkr8yy1eb16gn::::res://assets/images/Enemies/enemyBlack4.png<>uid://dvb22aueokjim::::res://scripts/virus_bomber.gd
 virus_bombers_bomb.tscn::PackedScene::4874533662689442297::1774555948::0::1::::<><><>0<>0<><>::uid://dmuw6vw8wgvm8::::res://assets/images/Lasers/laserGreen16.png<>uid://64awk5fkjhs0::::res://scripts/virus_bombers_bomb.gd
-::res://scripts/::1774556912
-game.gd::GDScript::5367102483213568300::1774556912::0::1::::<>Node2D<><>0<>0<><>::
-player.gd::GDScript::1031684299151587329::1774555947::0::1::::<>Area2D<><>0<>0<><>::
+::res://scripts/::1774913293
+explosion.gd::GDScript::2427928992358244070::1774913293::0::1::::<>GPUParticles2D<><>0<>0<><>::
+game.gd::GDScript::5367102483213568300::1774911872::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript::1031684299151587329::1774913293::0::1::::<>Area2D<><>0<>0<><>::
 player_laser.gd::GDScript::6044637968750493886::1774555948::0::1::::<>Area2D<><>0<>0<><>::
-virus_bomber.gd::GDScript::8636979751569112176::1774555948::0::1::::<>Area2D<><>0<>0<><>::
+virus_bomber.gd::GDScript::8636979751569112176::1774913293::0::1::::<>Area2D<><>0<>0<><>::
 virus_bombers_bomb.gd::GDScript::2235760966931181985::1774555948::0::1::::<>Area2D<><>0<>0<><>::

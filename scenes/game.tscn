@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cip4nngfbill1" path="res://scripts/game.gd" id="1_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://c2mxo4rcv1fqo" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="AudioStream" uid="uid://dh3r25voc1c4u" path="res://assets/music/ytmp3free.cc_knife-party-power-glove-official-youtubemp3free.org.mp3" id="3_lnu2h"]
 
 [node name="game" type="Node2D" unique_id=1925192407]
 script = ExtResource("1_lnu2h")
@@ -30,5 +31,9 @@ offset_bottom = 23.0
 grow_horizontal = 2
 theme_override_font_sizes/font_size = 40
 text = "Score: 0"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=924614252]
+stream = ExtResource("3_lnu2h")
+autoplay = true
 
 [connection signal="timeout" from="Virus Reinforcements" to="." method="_on_virus_reinforcements_timeout"]
